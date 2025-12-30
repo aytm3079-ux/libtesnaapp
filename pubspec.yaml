@@ -1,0 +1,42 @@
+name: travelguid
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  url_launcher: ^6.3.0  # تأكدي من استخدام آخر إصدار
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assests/images/LibyaMap.png
+
+  fonts:
+    - family: ElMessiri
+      fonts:
+        - asset: assests/fonts/ElMessiri-Regular.ttf
+        - asset: assests/fonts/ElMessiri-semiBold.ttf
+          weight: 600
+        - asset: assests/fonts/ElMessiri-Bold.ttf
+          weight: 700
+
+    - family: Amiri
+      fonts:
+        - asset: assests/fonts/Amiri-Regular.ttf
+        - asset: assests/fonts/Amiri-Bold.ttf
+          weight: 700
